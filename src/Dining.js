@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Menu(){
+function Dining(){
     return (
     <div>
  
@@ -9,4 +9,4 @@ function Menu(){
 )
 }
 
-export default Menu;
+export default Dining;
