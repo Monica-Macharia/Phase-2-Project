@@ -37,8 +37,16 @@ p.name{
 
 .container{
   position: absolute;
-  left: 100px;
+  left: 200px;
   top: 250px;
+}
+#main{
+  position: absolute;
+  right: -800px;
+  top: -90px;
+  height: 440px;
+  width:500px;
+
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
