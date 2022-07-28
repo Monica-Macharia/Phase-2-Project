@@ -9,12 +9,31 @@ body {
 .navbar{
     float: right;
     font-size: 17px;
-    color: white;
-    text-align: center;
+    /* text-align: left; */
     padding: 14px 26px;
-    text-decoration: none;
+    
+    /* text-decoration: none; */
   }
-
+.navbar div img.logo{
+  /* float:left; */
+  position: absolute; 
+    left: 100px;
+    height: 5%;
+    width: 40px;
+    background: #222222;
+    top: 40px;
+    bottom: 0p;
+    padding: 4px 6px;
+  /* display:inline-block; */
+  
+}
+p.name{
+  position: absolute;
+  left: 170px;
+  top: 40px;
+  /* padding: 14px 26px; */
+  /* margin: "0 6px 16px"; */
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

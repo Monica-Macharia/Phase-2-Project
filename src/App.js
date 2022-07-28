@@ -12,7 +12,7 @@ import Testimonials from './Testimonials.js';
 function App() {
   return (
     <nav className = "navbar">
-      {<NavBar /> }
+      {<NavBar/> }
       <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/Dining" element={<Dining />}/>
