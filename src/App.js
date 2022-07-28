@@ -11,10 +11,8 @@ import Testimonials from './Testimonials.js';
 
 function App() {
   return (
-    <>
-    
-   
-    <NavBar /> 
+    <nav className = "navbar">
+      {<NavBar /> }
       <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/Dining" element={<Dining />}/>
@@ -23,7 +21,7 @@ function App() {
       <Route path="/Contact" element={<Contact />}/>
       </Routes>
 
-  </>
+  </nav>
   );
 }
 
