@@ -41,19 +41,38 @@ p.name{
   /* margin: "0 6px 16px"; */
 }
 
-.container{
+div.container{
   position: absolute;
   left: 200px;
-  top: 250px;
+  top: 200px;
   font-size: 20px;
 }
-#main{
+div#main{
+  
   position: absolute;
-  right: -635px;
-  top: -90px;
-  height: 560px;
-  width: 500px;
+  right: 90px;
+  left: 700px;
+  top: 150px;
+ }
+ img#floor{
+  height: 660px;
+  width: 600px;
+  border-radius:10%;
+ }
+div#choma{
+  
+  /* top: 20px; */
+  position: absolute;
+  right: 760px;
+  top: 360px;
+  bottom: 900px;
 
+}
+img#meat{
+  border-radius:50%;
+  height: 460px;
+  width: 400px;
+  overflow: hidden;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

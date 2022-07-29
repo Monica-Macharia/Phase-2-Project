@@ -18,10 +18,14 @@ function Home(){
         <button className= "action">
             Menu
         </button>
-        <div>
-         <img id = "main" src="https://images.unsplash.com/photo-1565695040813-8812dba10aca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTc1fHxyZXN0YXVyYW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt = "hotel"/> 
         </div>
-    </div>
+        <div id= "choma">
+        <img id = "meat" src="https://images.unsplash.com/photo-1508615263227-c5d58c1e5821?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YWZyaWNhbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt= "Main dish"/>
+        </div>
+        <div id = "main">
+         <img id= "floor" src="https://images.unsplash.com/photo-1565695040813-8812dba10aca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTc1fHxyZXN0YXVyYW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt = "hotel"/> 
+        </div>
+    
 
     </div>
 )
