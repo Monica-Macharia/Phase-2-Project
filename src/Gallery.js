@@ -15,6 +15,7 @@ function Gallery(){
         <img src="https://images.pexels.com/photos/6210514/pexels-photo-6210514.jpeg?auto=compress&cs=tinysrgb&w=600" alt= "pic"/>
         <img src="https://images.pexels.com/photos/6210433/pexels-photo-6210433.jpeg?auto=compress&cs=tinysrgb&w=600" alt= "pic"/> 
         
+        
     </div>
 )
 }

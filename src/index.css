@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
 }
 .navbar{
     float: right;
@@ -63,7 +64,7 @@ div#choma{
   
   /* top: 20px; */
   position: absolute;
-  right: 760px;
+  right: 660px;
   top: 360px;
   bottom: 900px;
 
@@ -73,6 +74,40 @@ img#meat{
   height: 460px;
   width: 400px;
   overflow: hidden;
+}
+div.box{
+ 
+  border:solid;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+  
+}
+div#comments{
+  position: absolute;
+  left:5px;
+  top: 250px;
+  text-align: center;
+  width: 1500px;
+  height: 1000px;
+  display: flex;
+}
+.clients{
+  flex: 90%;
+  padding: 5px;
+}
+h2#customer{
+  left: 650px;
+  position: absolute;
+  top: 170px;
+}
+img.blank{
+  border-radius:50%;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  position:relative;
+  top:29px;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
