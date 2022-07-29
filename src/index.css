@@ -12,7 +12,9 @@ body {
     left: -860px; */
     font-size: 17px;
     /* text-align: left; */
-    padding: 14px 26px;
+    padding: 0px 60px;
+    margin: 70px;
+    margin-top: 10px;
     
     /* text-decoration: none; */
   }
@@ -23,16 +25,18 @@ body {
     height: 5%;
     width: 40px;
     background: #222222;
-    top: 40px;
+    /* top: 110px; */
     bottom: 0p;
     padding: 4px 6px;
+    margin-top: 40px;
   /* display:inline-block; */
   
 }
 p.name{
   position: absolute;
   left: 270px;
-  top: 40px;
+  /* top: 110px; */
+  margin-top: 55px;
   /* padding: 14px 26px; */
   /* margin: "0 6px 16px"; */
 }
@@ -45,7 +49,7 @@ p.name{
 }
 #main{
   position: absolute;
-  right: -700px;
+  right: -635px;
   top: -90px;
   height: 560px;
   width: 500px;

@@ -7,8 +7,8 @@ const styles = {
     display: "inline-block",
     
     width: "60px",
-    padding: "40px",
-    margin: "0 6px 16px",
+    padding: "35px",
+    margin: "17px 16px 16px",
     textDecoration: "none",
     color: "black",
   };
