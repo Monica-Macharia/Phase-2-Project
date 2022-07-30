@@ -1,32 +1,9 @@
 import React from "react";
 
-function Form(){
+function Form({Date, SeatNumber,FoodCategory,Book}){
  return(
      <div>
-     <div>
-     <h1>Dine with us</h1>
-     </div>
-     <form>
-         <label>
-             Date:
-             <input type = "date" name="date" />
-         </label>
-         <label>
-            Seat Number:
-            <input type="number" name= "seat"/>
-         </label>
-         <label>
-             Food Category:
-             <input type="text" name= "food"/>
-         </label>
-         <label>
-             Book:
-             <input type="text" name= "text"/>
-         </label>
-         <label>
-             <input type="submit" name="Submit" />
-         </label>
-         </form>
+     
      <div className = "entry">
          <table>
              <tr>
@@ -36,10 +13,10 @@ function Form(){
                  <th>Book</th>
              </tr>
              <tr>
-                 <td>ggyyg</td>
-                 <td>vvhbj</td>
-                 <td>vvhh</td>
-                 <td>gvvvh</td>
+                 <td>{Date}</td>
+                 <td>{SeatNumber}</td>
+                 <td>{FoodCategory}</td>
+                 <td>{Book}</td>
              </tr>
          </table>
      </div>
