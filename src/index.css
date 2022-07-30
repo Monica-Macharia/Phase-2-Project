@@ -127,3 +127,20 @@ div.hard{
   margin: 70px;
   width: 800px;
 }
+/* .entry {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+  
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+}
