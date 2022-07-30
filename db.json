@@ -1,0 +1,60 @@
+{
+    "booked": [
+        {
+            "id": 1,
+            "date": "01/15/2022",
+            "seatNumber": 4,
+            "foodCategory":"Vegan",
+            "book": "Yes"
+
+        },
+        {
+            "id": 2,
+            "date": "02/12/2022",
+            "seatNumber": 6,
+            "foodCategory":"Pork",
+            "book": "Yes"
+
+        },
+        {
+            "id": 3,
+            "date": "01/17/2022",
+            "seatNumber": 9,
+            "foodCategory":"Seafood",
+            "book": "Yes"
+
+        }
+        {
+            "id": 4,
+            "date": "01/25/2022",
+            "seatNumber": 4,
+            "foodCategory":"Vegan",
+            "book": "Yes"
+
+        },
+        {
+            "id": 5,
+            "date": "03/15/2022",
+            "seatNumber": 1,
+            "foodCategory":"Pasta",
+            "book": "Yes"
+
+        },
+        {
+            "id": 6,
+            "date": "04/15/2022",
+            "seatNumber": 8,
+            "foodCategory":"Lamb",
+            "book": "Yes"
+
+        },
+        {
+            "id": 7,
+            "date": "05/15/2022",
+            "seatNumber": 9,
+            "foodCategory":"Chicken",
+            "book": "Yes"
+
+        }
+    ]
+}
