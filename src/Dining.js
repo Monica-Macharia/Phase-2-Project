@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import Child from './Child'
 
 
-
-function Dining(){
+function Dining(props){
     const[data, setData] = useState([]);
     const [onLoad, setOnLoad]= useState(false);
 
@@ -15,11 +15,24 @@ function Dining(){
         setData(json.categories);
         setOnLoad(true);
     });
+    
+    
     }, []);
+    console.log(
+        data)
     if (!onLoad) return <h3>Loading...</h3>;
     return (
-    <div>
-        //map the data please
+    <div className = "fetched">
+        
+        {data.map((meal)=> 
+    <Child
+    key = {meal.idCategory}
+    category={meal.strCategory}
+    thumb= {meal.strCategoryThumb} 
+    description = {meal.strCategoryDescription} />
+        )}
+           
+        
     </div>
 )
 }
