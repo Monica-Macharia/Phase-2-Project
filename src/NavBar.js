@@ -50,12 +50,12 @@ function NavBar(){
               }}
             > Testimonials
             </NavLink>
-            <NavLink to = "/Contact" exact
+            <NavLink to = "/Bookings" exact
             style={styles}
             activeStyle={{
                 background: "darkblue",
               }} 
-            > Contact </NavLink>
+            > Bookings </NavLink>
         </div>
         
     )

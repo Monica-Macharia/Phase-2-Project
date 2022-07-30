@@ -4,7 +4,7 @@ import React from 'react';
 import NavBar from "./NavBar.js";
 import {Route, Routes} from 'react-router-dom';
 import Home from './Home.js';
-import Contact from './Contact.js';
+import Bookings from './Bookings.js';
 import Gallery from './Gallery.js';
 import Dining from './Dining.js';
 import Testimonials from './Testimonials.js';
@@ -19,7 +19,7 @@ function App() {
       <Route path="/Dining" element={<Dining />}/>
       <Route path="/Gallery" element={<Gallery />}/>
       <Route path="/Testimonials" element={<Testimonials />}/>
-      <Route path="/Contact" element={<Contact />}/>
+      <Route path="/Bookings" element={<Bookings />}/>
       </Routes>
       {/* <div  className="back"></div> */}
       <Footer />
