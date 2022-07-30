@@ -113,3 +113,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+div.meals{
+  border:solid;
+  border-radius:10%;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+  margin: 20px;
+  width: 800px;
+}
+div.hard{
+ 
+ 
+ 
+ 
+  text-align: center;
+  margin: 70px;
+  width: 800px;
+}
