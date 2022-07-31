@@ -23,8 +23,12 @@
       "date": "01/25/2022",
       "seatNumber": 4,
       "foodCategory": "Vegan"
+    },
+    {
+      "date": "2022-07-06",
+      "seatNumber": "2",
+      "foodCategory": "Vegan",
+      "id": 5
     }
-    
-    
   ]
 }

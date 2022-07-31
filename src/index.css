@@ -181,6 +181,9 @@ input[type=text]{
 .sales{
   display: flex;
 }
+/* div.hard{
+  display:flex;
+} */
 h1.hello{
   text-align: center;
 }
