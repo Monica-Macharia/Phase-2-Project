@@ -23,30 +23,8 @@
       "date": "01/25/2022",
       "seatNumber": 4,
       "foodCategory": "Vegan"
-    },
-    {
-      "id": 5,
-      "date": "03/15/2022",
-      "seatNumber": 1,
-      "foodCategory": "Pasta"
-    },
-    {
-      "id": 6,
-      "date": "04/15/2022",
-      "seatNumber": 8,
-      "foodCategory": "Lamb"
-    },
-    {
-      "id": 7,
-      "date": "05/15/2022",
-      "seatNumber": 9,
-      "foodCategory": "Chicken"
-    },
-    {
-      "date": "2022-07-28",
-      "seatNumber": "11",
-      "foodCategory": "Chicken",
-      "id": 8
     }
+    
+    
   ]
 }

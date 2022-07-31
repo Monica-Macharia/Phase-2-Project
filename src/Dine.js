@@ -30,11 +30,10 @@ function handleSubmit(e){
 
 }
 
-
     return(
     <div>
     <div>
-     <h1>Dine with us</h1>
+     <h1 className = "hello">Dine with us</h1>
      </div>
      <form className = "controlForm"
      onSubmit = {handleSubmit}>

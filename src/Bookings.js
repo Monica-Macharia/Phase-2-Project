@@ -31,7 +31,7 @@ function Bookings(){
             
     
     return (
-    <div>
+    <div className="sales">
         <div className= "diners">
         <Dine onAddItem = {handleAddItem}/>
         </div>
@@ -49,7 +49,7 @@ function Bookings(){
     <div className = "entry">
         {book.map((booker) => 
         <table>
-            <tr>
+            <tr className = "headers">
                 <th>Date</th>
                 <th>Seat Number</th>
                 <th>Food Category</th>

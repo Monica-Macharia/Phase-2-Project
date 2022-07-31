@@ -8,7 +8,7 @@ import Bookings from './Bookings.js';
 import Gallery from './Gallery.js';
 import Dining from './Dining.js';
 import Testimonials from './Testimonials.js';
-import Footer from "./Footer.js";
+
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <Route path="/Bookings" element={<Bookings />}/>
       </Routes>
       {/* <div  className="back"></div> */}
-      <Footer />
+     
 
   </nav>
   );

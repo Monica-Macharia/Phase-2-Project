@@ -16,7 +16,7 @@ const styles = {
 function NavBar(){
     return (
       
-        <div>
+        <div className = "see">
           <img className= "logo" src="https://images.unsplash.com/photo-1614529303008-4762ea020a49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTk4fHxzbWFsbCUyMGltYWdlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt= "logo"/> 
           <p className= "name"><b>Africana Restaurant</b></p>
       
