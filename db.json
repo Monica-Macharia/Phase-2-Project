@@ -43,40 +43,10 @@
       "foodCategory": "Chicken"
     },
     {
-      "date": "mm/dd/yy",
-      "seat": "",
-      "food": "",
+      "date": "2022-07-28",
+      "seatNumber": "11",
+      "foodCategory": "Chicken",
       "id": 8
-    },
-    {
-      "date": "mm/dd/yy",
-      "seat": "",
-      "food": "",
-      "id": 9
-    },
-    {
-      "date": "mm/dd/yy",
-      "seat": "",
-      "food": "",
-      "id": 10
-    },
-    {
-      "date": "2022-07-21",
-      "seat": "4",
-      "food": "Vegan",
-      "id": 11
-    },
-    {
-      "date": "2022-07-21",
-      "seat": "4",
-      "food": "Vegan",
-      "id": 12
-    },
-    {
-      "date": "2022-07-20",
-      "seat": "3",
-      "food": "Vegan",
-      "id": 13
     }
   ]
 }

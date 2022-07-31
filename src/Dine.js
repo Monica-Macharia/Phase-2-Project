@@ -5,15 +5,15 @@ import React, {useState} from 'react';
 
 function Dine({onAddItem}){
 const [date, setDate] = useState("mm/dd/yy");
-const [seat, setSeat] = useState("");
-const [food, setFood] = useState("");
+const [seatNumber, setSeat] = useState("");
+const [foodCategory, setFood] = useState("");
 
 function handleSubmit(e){
     e.preventDefault();
     const newItem ={
         date: date,
-        seat: seat,
-        food: food,
+        seatNumber: seatNumber,
+        foodCategory: foodCategory,
     };
    fetch("http://localhost:3000/booked",{
        method: "POST",
@@ -25,8 +25,8 @@ function handleSubmit(e){
    .then((r)=> r.json())
    .then((newData) => onAddItem(newData));
 
-   console.log(newItem);
-   console.log(food);
+//    console.log(newItem);
+//    console.log(food);
 
 }
 
@@ -44,11 +44,11 @@ function handleSubmit(e){
          </label>
          <label>
             Seat Number:
-            <input type="number" name= "seat" value={seat} onChange={(e) =>setSeat(e.target.value)}/>
+            <input type="number" name= "seat" value={seatNumber} onChange={(e) =>setSeat(e.target.value)}/>
          </label>
          <label>
              Food Category:
-             <input type="text" name= "food" value={food} onChange={(e) => setFood(e.target.value)}/>
+             <input type="text" name= "food" value={foodCategory} onChange={(e) => setFood(e.target.value)}/>
          </label>
          
          <label>
