@@ -2,7 +2,7 @@
 # Africana Restaurant
  Author Name: Monica Nyaguthii
 
-A live link to the application hosted on Netlify()
+A live link to the application hosted on Netlify(https://gleaming-brioche-acfd70.netlify.app/)
 
 # Description of the project.
 
