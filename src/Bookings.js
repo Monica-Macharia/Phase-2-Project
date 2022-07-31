@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import Form from "./Form.js";
+
 import Dine from "./Dine.js";
 
 function Bookings(){
@@ -24,23 +24,49 @@ function Bookings(){
         if(!load)
             return 
                 <h1>Loading...</h1>;
-            
         
-
+        function handleAddItem(newData){
+            setBook([...book, newData])
+        }
+            
+    
     return (
     <div>
-    <div>
+        <div className= "diners">
+        <Dine onAddItem = {handleAddItem}/>
+        </div>
+    {/* <div>
        {book.map((booker)=> 
     <Form
     key = {booker.id}
     Date={booker.date}
     SeatNumber= {booker.seatNumber} 
     FoodCategory = {booker.foodCategory} 
-    Book= {booker.book}/>
-    )}
+    
+    />
+    <div> */}
+     
+    <div className = "entry">
+        {book.map((booker) => 
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Seat Number</th>
+                <th>Food Category</th>
+                
+            </tr>
+            <tr>
+              
+                <td>{booker.date}</td>
+                <td>{booker.seatNumber}</td>
+                <td>{booker.foodCategory}</td>
+                
+            </tr>
+        </table>)}
     </div>
-    <Dine/>
     </div>
+    
+    
 )
 }
 
