@@ -15,11 +15,7 @@ function handleSubmit(e){
         seatNumber: seatNumber,
         foodCategory: foodCategory,
     };
-
-    const devEnv = process.env.NODE_ENV !== "production";
-    const { REACT_APP_DEV_URL, REACT_APP_PROD_URL } = process.env;
-    
-   fetch(`${devEnv ? REACT_APP_DEV_URL : REACT_APP_PROD_URL}`,{
+   fetch("https://secure-badlands-04927.herokuapp.com/booked",{
        method: "POST",
        headers: {
            "Content-Type": "application/json",

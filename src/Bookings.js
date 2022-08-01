@@ -6,27 +6,19 @@ function Bookings(){
 
         const[book, setBook] = useState([]);
         const [load, setLoad]= useState(false);
-        useEffect(()=>{
-        environment();        
+    
+       useEffect(()=>{
         
-        }, []);
-
-
-        const environment = () => {
-            
-        const devEnv = process.env.NODE_ENV !== "production";
-        const { REACT_APP_DEV_URL, REACT_APP_PROD_URL } = process.env;
-        
-        fetch(`${devEnv ? REACT_APP_DEV_URL : REACT_APP_PROD_URL}`)
+         fetch("https://secure-badlands-04927.herokuapp.com/booked")
         .then((res) => res.json())
         .then((json)=> { 
             
             setBook(json);
             setLoad(true);
-            console.log(json)
         });
-    }
-       
+        
+        
+        }, []);
         
 
         if(!load)
@@ -55,11 +47,8 @@ function Bookings(){
     <div> */}
      
     <div className = "entry">
-        {book.map((booker,id) => 
-        
-            <table             
-            key = {id}> 
-            <tbody>
+        {book.map((booker) => 
+        <table>
             <tr className = "headers">
                 <th>Date</th>
                 <th>Seat Number</th>
@@ -73,13 +62,7 @@ function Bookings(){
                 <td>{booker.foodCategory}</td>
                 
             </tr>
-            </tbody>
-        </table>
-        
-        )
-        
-        }
-        
+        </table>)}
     </div>
     </div>
     
