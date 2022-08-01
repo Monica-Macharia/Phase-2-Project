@@ -20,39 +20,40 @@ function NavBar(){
           <img className= "logo" src="https://images.unsplash.com/photo-1614529303008-4762ea020a49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTk4fHxzbWFsbCUyMGltYWdlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt= "logo"/> 
           <p className= "name"><b>Africana Restaurant</b></p>
       
-            <NavLink to = "./" exact
+            <NavLink to = "./" exact = "true"
             style={styles}
-            activeStyle={{
+            activeclassname={{
                 background: "darkblue",
               }}
             > Home 
             </NavLink>
-            <NavLink to = "/Dining" exact
+            <NavLink to = "/Dining" exact ="true"
             style={styles} 
-            activeStyle={{
+            activeclassname={{
                 background: "darkblue",
               }}
            > Dining
              </NavLink>
              <NavLink 
-             to = "/Gallery" exact
+             to = "/Gallery" exact ="true"
             style={styles}
-            activeStyle={{
+            activeclassname={{
                 background: "darkblue",
               }} 
             > Gallery 
             </NavLink>
             <NavLink
-             to = "/Testimonials" exact
+             to = "/Testimonials" exact = "true"
             style={styles} 
-            activeStyle={{
+            
+            activeclassname={{
                 background: "darkblue",
               }}
             > Testimonials
             </NavLink>
-            <NavLink to = "/Bookings" exact
+            <NavLink to = "/Bookings" exact ="true"
             style={styles}
-            activeStyle={{
+            activeclassname={{
                 background: "darkblue",
               }} 
             > Bookings </NavLink>

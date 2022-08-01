@@ -29,6 +29,18 @@
       "seatNumber": "2",
       "foodCategory": "Vegan",
       "id": 5
+    },
+    {
+      "date": "2022-08-27",
+      "seatNumber": "4",
+      "foodCategory": "Chicken",
+      "id": 6
+    },
+    {
+      "date": "2022-08-27",
+      "seatNumber": "4",
+      "foodCategory": "Chicken",
+      "id": 7
     }
   ]
 }

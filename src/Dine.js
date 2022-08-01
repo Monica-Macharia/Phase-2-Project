@@ -15,10 +15,15 @@ function handleSubmit(e){
         seatNumber: seatNumber,
         foodCategory: foodCategory,
     };
-   fetch("http://localhost:3000/booked",{
+
+    const devEnv = process.env.NODE_ENV !== "production";
+    const { REACT_APP_DEV_URL, REACT_APP_PROD_URL } = process.env;
+    
+   fetch(`${devEnv ? REACT_APP_DEV_URL : REACT_APP_PROD_URL}`,{
        method: "POST",
        headers: {
            "Content-Type": "application/json",
+           
        },
        body: JSON.stringify(newItem),
    })

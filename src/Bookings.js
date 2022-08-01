@@ -8,13 +8,15 @@ function Bookings(){
         const [load, setLoad]= useState(false);
     
        useEffect(()=>{
-        
-         fetch("http://localhost:3000/booked")
+    const devEnv = process.env.NODE_ENV !== "production";
+    const { REACT_APP_DEV_URL, REACT_APP_PROD_URL } = process.env;
+         fetch(`${devEnv ? REACT_APP_DEV_URL : REACT_APP_PROD_URL}`)
         .then((res) => res.json())
         .then((json)=> { 
             
             setBook(json);
             setLoad(true);
+            console.log(json)
         });
         
         
@@ -47,8 +49,11 @@ function Bookings(){
     <div> */}
      
     <div className = "entry">
-        {book.map((booker) => 
-        <table>
+        {book.map((booker,id) => 
+        
+            <table             
+            key = {id}> 
+            <tbody>
             <tr className = "headers">
                 <th>Date</th>
                 <th>Seat Number</th>
@@ -62,7 +67,13 @@ function Bookings(){
                 <td>{booker.foodCategory}</td>
                 
             </tr>
-        </table>)}
+            </tbody>
+        </table>
+        
+        )
+        
+        }
+        
     </div>
     </div>
     
