@@ -6,11 +6,18 @@ function Bookings(){
 
         const[book, setBook] = useState([]);
         const [load, setLoad]= useState(false);
-    
-       useEffect(()=>{
-    const devEnv = process.env.NODE_ENV !== "production";
-    const { REACT_APP_DEV_URL, REACT_APP_PROD_URL } = process.env;
-         fetch(`${devEnv ? REACT_APP_DEV_URL : REACT_APP_PROD_URL}`)
+        useEffect(()=>{
+        environment();        
+        
+        }, []);
+
+
+        const environment = () => {
+            
+        const devEnv = process.env.NODE_ENV !== "production";
+        const { REACT_APP_DEV_URL, REACT_APP_PROD_URL } = process.env;
+        
+        fetch(`${devEnv ? REACT_APP_DEV_URL : REACT_APP_PROD_URL}`)
         .then((res) => res.json())
         .then((json)=> { 
             
@@ -18,9 +25,8 @@ function Bookings(){
             setLoad(true);
             console.log(json)
         });
-        
-        
-        }, []);
+    }
+       
         
 
         if(!load)
