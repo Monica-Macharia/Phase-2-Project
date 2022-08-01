@@ -1,4 +1,4 @@
-const port = process.env.PORT || 5000;
+let port = process.env.PORT || 5000;
 server.use(middlewares);
 server.use(jsonServer.rewriter({ "/api/*": "/$1" }));
 server.use(router);
