@@ -59,6 +59,24 @@
       "seatNumber": "6",
       "foodCategory": "Chicken",
       "id": 10
+    },
+    {
+      "date": "2022-08-17",
+      "seatNumber": "-3",
+      "foodCategory": "Chicken",
+      "id": 11
+    },
+    {
+      "date": "2022-08-17",
+      "seatNumber": "-3",
+      "foodCategory": "Chicken",
+      "id": 12
+    },
+    {
+      "date": "2022-08-17",
+      "seatNumber": "-3",
+      "foodCategory": "Chicken",
+      "id": 13
     }
   ]
 }
