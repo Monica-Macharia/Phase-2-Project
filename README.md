@@ -2,7 +2,7 @@
 # Africana Restaurant
  Author Name: Monica Nyaguthii
 
-A live link to the application hosted on Netlify()
+A live link to the application hosted on Vercel("https://phase-2-project-eight.vercel.app/")
 
 # Description of the project.
 
