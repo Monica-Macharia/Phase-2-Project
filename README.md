@@ -2,7 +2,7 @@
 # Africana Restaurant
  Author Name: Monica Nyaguthii
 
-A live link to the application hosted on Netlify(https://aquamarine-meringue-8a94b8.netlify.app/)
+A live link to the application hosted on Netlify()
 
 # Description of the project.
 
